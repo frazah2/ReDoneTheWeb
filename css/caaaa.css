@@ -480,6 +480,12 @@
     color: white;
     z-index: 2;
   }
+  .about-title, .pricetag{
+    font-family: Arial, Helvetica, sans-serif !important;
+    text-align: center;
+    font-size: 50px !important;
+    font-weight: 700 !important;
+  }
   .cont{
     padding-bottom: 250px;
   }
@@ -503,20 +509,6 @@
 
   }
   
-  .map-container {
-    position: relative;
-    overflow: hidden;
-    padding-top: 56.25%; /* 16:9 aspect ratio */
-  }
-  
-  .map-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-  }
   .about-section {
     position: relative;
     padding: 80px 0;
@@ -537,7 +529,6 @@
   }
   
   .about-title {
-    font-size: 3em;
     margin-bottom: 15px !important;
     color: #ffffff;
   }
@@ -555,6 +546,7 @@
     flex-wrap: wrap;
     align-items: center;
     margin-top: 40px;
+    cursor: pointer;
   }
   
   .team-member {
@@ -731,35 +723,32 @@
     font-weight: 700;
     padding: 0;
     margin-bottom: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
 .im1{
-  background-image: url('https://cdn.autonomous.ai/static/upload/images/new_post/set-up-multi-monitors-for-gaming-guide-4254-1648263925325.jpg');
+  background-image: url('https://gaming-cdn.com/images/products/7678/616x353/black-myth-wukong-pc-game-steam-europe-and-us-and-canada-cover.jpg?v=1723546968');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0px;
 }
 .im2{
-  background-image: url('https://www.minimaldesksetups.com/wp-content/uploads/2020/09/01-WFH-Banner.jpg');
+  background-image: url('https://assetsio.gnwcdn.com/counter-strike-2-headline-cs2.jpg?width=1200&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0px;
 }
 .im3{
-  background-image: url('https://t3.ftcdn.net/jpg/04/80/50/72/360_F_480507242_J9HTvwkDYJNijcwWT7SYqf2LNNJqotfi.jpg');
+  background-image: url('https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2139460/ss_001526dade6e9f28c6711932250e3734c45bea01.1920x1080.jpg?t=1723792749');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0px;
 }
 .im4{
-  background-image: url('https://media.citizen.co.za/wp-content/uploads/2023/03/Shoprite-clothing-store.jpg');
+  background-image: url('https://cdn1.epicgames.com/offer/24285307a56445f1bc5d546df7af3025/EGS_SinsofaSolarEmpireII_IroncladGames_S1_2560x1440-0d6bf7af59f4571b9ff1e6dae64bfe4b');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0px;
 }
 .im5{
-  background-image: url('https://d2m3nfprmhqjvd.cloudfront.net/blog/20220825223325/Luxury-SUVs.jpg');
+  background-image: url('https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/header.jpg?t=1720671886');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0px;
@@ -818,4 +807,376 @@
 .line{
   color: white;
   background: white;
+}
+
+
+
+
+
+/* Pricing Section CSS */
+.pricing-section {
+  padding: 50px 0;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  border-top: 2px solid rgb(0, 111, 128);
+}
+
+.pricing-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.pricing-card {
+  background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+  border: 1px solid #3a10f4;
+  border-radius: 8px;
+  padding: 20px;
+  width: 23%;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.pricing-card h3 {
+  font-size: 1.7em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.pricing-card .price {
+  font-size: 2em;
+  color: #28a745;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.pricing-card .price span {
+  font-size: 0.5em;
+  color: #e0eaf4;
+}
+
+.pricing-card ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pricing-card ul li {
+  margin: 10px 0;
+  font-size: 1em;
+  color: #d8d8d8;
+}
+@media (max-width: 1199px) {
+  .pricing-card {
+      width: 45%;
+  }
+}
+@media (max-width: 768px) {
+  .pricing-card {
+      width: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+  .pricing-card {
+      width: 90%;
+  }
+}
+
+
+
+
+
+
+
+/* About Section CSS */
+.about-section-gaming {
+  padding: 50px 0;
+  text-align: left;
+}
+
+.wrapper-gaming {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.about-section-gaming h2 {
+  font-size: 4.5em;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-gaming {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.text-block h3 {
+  font-size: 2.8em;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.text-block p, .text-block ul {
+  font-size: 1.6em;
+  color: #ffffff;
+  line-height: 1.6em;
+}
+
+.text-block ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.text-block ul li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .content-gaming {
+      flex-direction: column;
+  }
+}
+.scroll-section{
+  padding: 0px 0px 80px 0px;
+}
+.pricing-section{
+padding-top: 80px;
+}
+
+
+
+.upcoming-games-section {
+  padding: 60px 0;
+  background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
+  background-blend-mode: screen;
+  height: 800px;
+}
+
+.games-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.upcoming-games-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  color: #000000;
+}
+
+.games-grid {
+  display: grid;
+  align-items: center;
+}
+.game1{
+  width: 300px;
+  height: 400px;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR03mzgLNJKFV3sj2zUTBtvViF7kLma4zLnaw&s');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px;
+  overflow: hidden;
+  border: 2px solid black;
+}
+.game2{
+  width: 300px;
+  height: 400px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/ru/7/79/Vampire-_The_Masquerade_%E2%80%93_Bloodlines_2_%28%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0%29.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px;
+  overflow: hidden;
+  border: 2px solid black;
+}
+.game3{
+  width: 300px;
+  height: 400px;
+  background-image: url('https://cdn1.epicgames.com/offer/32bc7c6aaecd40eeb5f58bb83dba1c05/EGS_Frostpunk2_11bitstudios_S2_1200x1600-8b452490754cb4a4fe1a983c533cfb5d');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px;
+  overflow: hidden;
+  border: 2px solid black;
+}
+.game4{
+  width: 300px;
+  height: 400px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/en/4/42/Warhammer_40%2C000_Space_Marine_2_cover_art.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px;
+  overflow: hidden;
+  border: 2px solid black;
+}
+.game5{
+  width: 300px;
+  height: 400px;
+  background-image: url('https://assetsio.gnwcdn.com/co7hab.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px;
+  overflow: hidden;
+  border: 2px solid black;
+}
+.pre-oder{
+  height: 40px;
+  width: 150px !important;
+  background-color: #1451a0;
+  border-radius: 5%;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.games-grid p{
+  font-size: 25px;
+  font-weight: 600;
+  width: 100%;
+  height: 100px;
+  margin: 0;
+  padding-top: 10px;
+  text-shadow: 0 0 5px #000000, 0 0 5px #000000;
+}
+.upcomname{
+  font-size: 30px;
+  font-weight: 600;
+  width: 100%;
+  height: 160px;
+  margin: 0;
+  padding-top: 20px;
+  text-shadow: 0 0 5px #000000, 0 0 5px #000000;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.pre-oder:hover{
+  height: 45px;
+  width: 155px;
+  background-color: #2576e1;
+  border-radius: 5%;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.orderdiv{
+  width: 100%;
+  height: 240px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.games-wrapper h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 80px;
+  /* text-align: center; */
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+  margin-right: 40px;
+}
+
+.footer-logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.8em;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.footer-section {
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.footer-section h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+.footer-social {
+  margin-top: 20px;
+}
+
+.social-icon {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.5em;
+}
+
+.social-icon:hover {
+  color: #ddd;
+}
+
+.footer-bottom {
+  background-color: #222;
+  padding: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 0.9em;
+}
+.pricing-card:hover{
+  background-image: linear-gradient(to top, #2b5197 0%, #284b8e 1%, #3360af 100%);
 }

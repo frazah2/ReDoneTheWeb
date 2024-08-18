@@ -1,266 +1,444 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/caaaa.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-    <!-- Animate.css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <!-- Wow.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow.js/1.1.2/wow.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/caaaa.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Wow.js -->
+  <!-- Flickity CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css">
+  <!-- <link rel="stylesheet" href="https://npmcdn.com/flickity@2/dist/flickity.css"> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow.js/1.1.2/wow.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
 
 
-    <title>Website Design</title>
+  <title>Website Design</title>
 </head>
+
 <body>
 
 
-    <section id="home">
+  <section id="home">
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <div class="small-logo-container">
-              <a class="small-logo" href="#">GamingDistrict</a>
-            </div>
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="small-logo-container">
+            <p class="small-logo" href="#">GamingDistrict</p>
           </div>
-          <div class="navbar-collapse collapse">
-            
-            <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="#Items">Top Sellers</a></li>
-              <li class="active"><a href="#about">About</a></li>
-              <li class="active"><a href="#about">Pricing</a></li>
-              <li class="active"><a href="#location">Upcoming</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
         </div>
+        <div class="navbar-collapse collapse">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#Items">Top Sellers</a></li>
+            <li class="active"><a href="#about">About</a></li>
+            <li class="active"><a href="#pricing">Pricing</a></li>
+            <li class="active"><a href="#upcoming">Upcoming</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
-  
-      <div class="container-fluid  big-logo-row">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 big-logo-container">
-              <h1 class="big-logo ">GamingDistrict</h1>
-            </div><!--/.col-xs-12 -->
-          </div><!--/.row -->
-        </div><!--/.container -->
-      </div><!--/.container-fluid -->
-    </section>
-<section id="Items">
-    
+    </div>
+
+    <div class="container-fluid  big-logo-row">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 big-logo-container">
+            <h1 class="big-logo ">GamingDistrict</h1>
+          </div><!--/.col-xs-12 -->
+        </div><!--/.row -->
+      </div><!--/.container -->
+    </div><!--/.container-fluid -->
+  </section>
+  <section id="Items">
+
     <div class="cont s--inactive">
-        <h1 class="itemh1">TOP SELLERS</h1>
-        <!-- cont inner start -->
-        <div class="cont__inner">
-          <!-- el start -->
-          <div class="el">
-            <div class="el__overflow">
-              <div class="el__inner">
-                <div class="el__bg"></div>
-                <div class="el__preview-cont img1">
-                  <h2 class="el__heading">Black Myth: Wukong</h2>
-                </div>
-                <div class="el__content im1">
-                  <div class="el__text">Get a full gaming setup starting at $1900!</div>
-                  <div class="el__close-btn"></div>
-                </div>
+      <h1 class="itemh1">TOP SELLERS</h1>
+      <!-- cont inner start -->
+      <div class="cont__inner wow animate__animated animate__fadeInUp">
+        <!-- el start -->
+        <div class="el">
+          <div class="el__overflow">
+            <div class="el__inner">
+              <div class="el__bg"></div>
+              <div class="el__preview-cont img1">
+                <h2 class="el__heading">Black Myth: Wukong</h2>
               </div>
-            </div>
-            <div class="el__index">
-              <div class="el__index-back">1</div>
-              <div class="el__index-front">
-                <div class="el__index-overlay" data-index="1">1</div>
+              <div class="el__content im1">
+                <div class="el__text">Pre-Purchase Black Myth: Wukong for $59.99!</div>
+                <div class="el__close-btn"></div>
               </div>
             </div>
           </div>
-          <!-- el end -->
-          <!-- el start -->
-          <div class="el">
-            <div class="el__overflow">
-              <div class="el__inner">
-                <div class="el__bg"></div>
-                <div class="el__preview-cont img2">
-                  <h2 class="el__heading">Counter-Strike 2</h2>
-                </div>
-                <div class="el__content im2">
-                  <div class="el__text">Full Office Setup starting at $1500!</div>
-                  <div class="el__close-btn"></div>
-                </div>
-              </div>
-            </div>
-            <div class="el__index">
-              <div class="el__index-back">2</div>
-              <div class="el__index-front">
-                <div class="el__index-overlay" data-index="2">2</div>
-              </div>
+          <div class="el__index">
+            <div class="el__index-back">1</div>
+            <div class="el__index-front">
+              <div class="el__index-overlay" data-index="1">1</div>
             </div>
           </div>
-          <!-- el end -->
-          <!-- el start -->
-          <div class="el">
-            <div class="el__overflow">
-              <div class="el__inner">
-                <div class="el__bg"></div>
-                <div class="el__preview-cont img3">
-                  <h2 class="el__heading">Once Human</h2>
-                </div>
-                <div class="el__content im3">
-                  <div class="el__text">Sports kit starting at $300!</div>
-                  <div class="el__close-btn"></div>
-                </div>
-              </div>
-            </div>
-            <div class="el__index">
-              <div class="el__index-back">3</div>
-              <div class="el__index-front">
-                <div class="el__index-overlay" data-index="3">3</div>
-              </div>
-            </div>
-          </div>
-          <!-- el end -->
-          <!-- el start -->
-          <div class="el">
-            <div class="el__overflow">
-              <div class="el__inner">
-                <div class="el__bg"></div>
-                <div class="el__preview-cont img4">
-                  <h2 class="el__heading">Sins of a Solar Empire</h2>
-                </div>
-                <div class="el__content im4">
-                  <div class="el__text">Full clothing peice only at $400!
-                  </div>
-                  <div class="el__close-btn"></div>
-                </div>
-              </div>
-            </div>
-            <div class="el__index">
-              <div class="el__index-back">4</div>
-              <div class="el__index-front">
-                <div class="el__index-overlay" data-index="4">4</div>
-              </div>
-            </div>
-          </div>
-          <!-- el end -->
-          <!-- el start -->
-          <div class="el">
-            <div class="el__overflow">
-              <div class="el__inner">
-                <div class="el__bg"></div>
-                <div class="el__preview-cont img5">
-                  <h2 class="el__heading">Pubg</h2>
-                </div>
-                <div class="el__content im5">
-                  <div class="el__text">Get SUV's starting at $40,000!</div>
-                  <div class="el__close-btn"></div>
-                </div>
-              </div>
-            </div>
-            <div class="el__index">
-              <div class="el__index-back">5</div>
-              <div class="el__index-front">
-                <div class="el__index-overlay" data-index="5">5</div>
-              </div>
-            </div>
-          </div>
-          <!-- el end -->
         </div>
-        <!-- cont inner end -->
+        <!-- el end -->
+        <!-- el start -->
+        <div class="el">
+          <div class="el__overflow">
+            <div class="el__inner">
+              <div class="el__bg"></div>
+              <div class="el__preview-cont img2">
+                <h2 class="el__heading">Counter-Strike 2</h2>
+              </div>
+              <div class="el__content im2">
+                <div class="el__text">Play Counter-Strike 2 For Free!</div>
+                <div class="el__close-btn"></div>
+              </div>
+            </div>
+          </div>
+          <div class="el__index">
+            <div class="el__index-back">2</div>
+            <div class="el__index-front">
+              <div class="el__index-overlay" data-index="2">2</div>
+            </div>
+          </div>
+        </div>
+        <!-- el end -->
+        <!-- el start -->
+        <div class="el">
+          <div class="el__overflow">
+            <div class="el__inner">
+              <div class="el__bg"></div>
+              <div class="el__preview-cont img3">
+                <h2 class="el__heading">Once Human</h2>
+              </div>
+              <div class="el__content im3">
+                <div class="el__text">Play Once Human For Free!</div>
+                <div class="el__close-btn"></div>
+              </div>
+            </div>
+          </div>
+          <div class="el__index">
+            <div class="el__index-back">3</div>
+            <div class="el__index-front">
+              <div class="el__index-overlay" data-index="3">3</div>
+            </div>
+          </div>
+        </div>
+        <!-- el end -->
+        <!-- el start -->
+        <div class="el">
+          <div class="el__overflow">
+            <div class="el__inner">
+              <div class="el__bg"></div>
+              <div class="el__preview-cont img4">
+                <h2 class="el__heading">Sins of a Solar Empire</h2>
+              </div>
+              <div class="el__content im4">
+                <div class="el__text">Buy Sins of a Solar Empire II For $22.99!
+                </div>
+                <div class="el__close-btn"></div>
+              </div>
+            </div>
+          </div>
+          <div class="el__index">
+            <div class="el__index-back">4</div>
+            <div class="el__index-front">
+              <div class="el__index-overlay" data-index="4">4</div>
+            </div>
+          </div>
+        </div>
+        <!-- el end -->
+        <!-- el start -->
+        <div class="el">
+          <div class="el__overflow">
+            <div class="el__inner">
+              <div class="el__bg"></div>
+              <div class="el__preview-cont img5">
+                <h2 class="el__heading">Pubg</h2>
+              </div>
+              <div class="el__content im5">
+                <div class="el__text">Play PUBG: BATTLEGROUNDS For Free!</div>
+                <div class="el__close-btn"></div>
+              </div>
+            </div>
+          </div>
+          <div class="el__index">
+            <div class="el__index-back">5</div>
+            <div class="el__index-front">
+              <div class="el__index-overlay" data-index="5">5</div>
+            </div>
+          </div>
+        </div>
+        <!-- el end -->
       </div>
-    </section>
+      <!-- cont inner end -->
+    </div>
+  </section>
 
 
-    <section id="about" class="about-section">
-      <div class="scroll-section">
-        <div class="wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
-          <i class="fas fa-star icon"></i>
-          <div class="line"></div>
-          <h1>Welcome to My Website</h1>
-        </div>
-      
-        <div class="wow animate__animated animate__fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">
-          <i class="fas fa-rocket icon"></i>
-          <div class="line"></div>
-          <h1>Where Your Dreams come true!</h1>
-        </div>
-      
-        <div class="wow animate__animated animate__zoomIn" data-wow-duration="2s" data-wow-delay="0.8s">
-          <i class="fas fa-magic icon"></i>
-          <div class="line"></div>
-          <h1>Look Around & see if you like anything</h1>
+  <section id="about" class="about-section">
+    <div class="scroll-section">
+      <div class="wrapper-gaming about-section-gaming">
+        <h2>About Us</h2>
+        <div class="content-gaming">
+          <div class="text-block">
+            <h3>Who We Are</h3>
+            <p>We are a team of passionate gamers, developers, and tech enthusiasts dedicated to bringing the best
+              gaming experiences to players worldwide. Our mission is to create a platform where gamers of all levels
+              can find and enjoy the games they love, with a focus on quality, innovation, and community.</p>
+          </div>
+          <div class="text-block">
+            <h3>Our Vision</h3>
+            <p>To be the leading global platform for gaming, where players can access an extensive library of games,
+              connect with like-minded individuals, and stay ahead of the curve with the latest industry trends. We aim
+              to foster a vibrant gaming community that encourages creativity, competition, and camaraderie.</p>
+          </div>
+
+          <div class="text-block">
+            <h3>Our Journey</h3>
+            <p>Founded in 2022, our journey began with a small group of friends who shared a deep love for gaming. Since
+              then, we’ve grown into a dynamic team that has launched numerous games and collaborated with some of the
+              industry’s top developers. Our growth is a testament to our commitment to our players and our passion for
+              gaming.</p>
+          </div>
         </div>
       </div>
-      
-        <div class="container-fluid containerabout">
-          <div class="about-content wow fadeInUp23" data-wow-duration="1s">
-            <h2 class="about-title">Browse by category</h2>
-            <span class="about-description">
-              Can't find what you've been looking for?
-              Browse by category and chose that you like!
-            </span>
-            <div class="team wow animate__animated animate__fadeInUp">
-              <div class="team-member wow animate__animated animate__fadeInLeft" data-tilt data-tilt-max="25" data-tilt-speed="400">
-                <img src="https://store.steampowered.com/categories/homepageimage/category/multiplayer_coop?cc=us&l=english" alt="Team Member 1">
-                <h3>Open World</h3>
-              </div>
-              <div class="team-member" data-tilt data-tilt-max="25" data-tilt-speed="400">
-                <img src="https://store.steampowered.com/categories/homepageimage/category/action?cc=us&l=english" alt="Team Member 2">
-                <h3>Action</h3>
-              </div>
-              <div class="team-member" data-tilt data-tilt-max="25" data-tilt-speed="400">
-                <img src="https://store.steampowered.com/categories/homepageimage/category/survival?cc=us&l=english" alt="Team Member 2">
-                <h3>Survival</h3>
-              </div>
-              <div class="team-member" data-tilt data-tilt-max="25" data-tilt-speed="400">
-                <img src="https://store.steampowered.com/categories/homepageimage/category/adventure?cc=us&l=english" alt="Team Member 2">
-                <h3>Free to Play</h3>
-              </div>
-              <div class="team-member wow animate__animated animate__fadeInRight" data-tilt data-tilt-max="25" data-tilt-speed="400">
-                <img src="https://store.steampowered.com/categories/homepageimage/category/horror?cc=us&l=english" alt="Team Member 2">
-                <h3>Horror</h3>
-              </div>
-              <!-- Add more team members as needed -->
-            </div>
+    </div>
+
+    <div class="container-fluid containerabout">
+      <div class="about-content wow fadeInUp23" data-wow-duration="1s">
+        <h2 class="about-title">Browse by category</h2>
+        <span class="about-description">
+          Can't find what you've been looking for?
+          Browse by category and chose that you like!
+        </span>
+        <div class="team wow animate__animated animate__fadeInUp">
+          <div class="team-member wow animate__animated animate__fadeInLeft" data-tilt data-tilt-max="25"
+            data-tilt-speed="400">
+            <img src="https://store.steampowered.com/categories/homepageimage/category/multiplayer_coop?cc=us&l=english"
+              alt="Team Member 1">
+            <h3>Open World</h3>
+          </div>
+          <div class="team-member" data-tilt data-tilt-max="25" data-tilt-speed="400">
+            <img src="https://store.steampowered.com/categories/homepageimage/category/action?cc=us&l=english"
+              alt="Team Member 2">
+            <h3>Action</h3>
+          </div>
+          <div class="team-member" data-tilt data-tilt-max="25" data-tilt-speed="400">
+            <img src="https://store.steampowered.com/categories/homepageimage/category/survival?cc=us&l=english"
+              alt="Team Member 2">
+            <h3>Survival</h3>
+          </div>
+          <div class="team-member" data-tilt data-tilt-max="25" data-tilt-speed="400">
+            <img src="https://store.steampowered.com/categories/homepageimage/category/adventure?cc=us&l=english"
+              alt="Team Member 2">
+            <h3>Free to Play</h3>
+          </div>
+          <div class="team-member wow animate__animated animate__fadeInRight" data-tilt data-tilt-max="25"
+            data-tilt-speed="400">
+            <img src="https://store.steampowered.com/categories/homepageimage/category/horror?cc=us&l=english"
+              alt="Team Member 2">
+            <h3>Horror</h3>
+          </div>
+          <!-- Add more team members as needed -->
+        </div>
+      </div>
+    </div>
+    <div class="floating-objects">
+      <div class="object object-1"></div>
+      <div class="object object-2"></div>
+      <div class="object object-3"></div>
+      <div class="object object-4"></div>
+      <div class="object object-5"></div>
+      <div class="object object-6"></div>
+      <div class="object object-7"></div>
+      <div class="object object-8"></div>
+      <div class="object object-9"></div>
+      <!-- Add more objects as needed -->
+    </div>
+
+  </section>
+  <!-- Pricing Section -->
+  <section id="pricing" class="pricing-section">
+    <div class="container">
+      <h2 class="pricetag">Pricing Plans</h2>
+      <div class="pricing-cards">
+        <!-- Starter Pack -->
+        <div class="pricing-card wow animate__animated animate__fadeInLeft">
+          <h3>Starter Pack</h3>
+          <p class="price">$9.99<span>/month</span></p>
+          <ul>
+            <li>Access to 50+ indie games</li>
+            <li>Monthly updates with new titles</li>
+            <li>Standard customer support</li>
+            <li>Community forum access</li>
+          </ul>
+        </div>
+
+        <!-- Pro Gamer Pack -->
+        <div class="pricing-card wow animate__animated animate__fadeInLeft">
+          <h3>Pro Gamer Pack</h3>
+          <p class="price">$19.99<span>/month</span></p>
+          <ul>
+            <li>Access to 200+ games, including premium titles</li>
+            <li>Early access to new releases</li>
+            <li>Enhanced customer support</li>
+            <li>Exclusive in-game content</li>
+            <li>Multiplayer & co-op features</li>
+          </ul>
+        </div>
+
+        <!-- Ultimate Pack -->
+        <div class="pricing-card wow animate__animated animate__fadeInRight">
+          <h3>Ultimate Pack</h3>
+          <p class="price">$29.99<span>/month</span></p>
+          <ul>
+            <li>Unlimited access to all games</li>
+            <li>VIP support with priority response</li>
+            <li>Monthly in-game bonuses & currency</li>
+            <li>Beta access to upcoming games</li>
+            <li>Free access to all downloadable content (DLC)</li>
+            <li>Customizable player profiles & avatars</li>
+          </ul>
+        </div>
+
+        <!-- Family Pack -->
+        <div class="pricing-card wow animate__animated animate__fadeInRight">
+          <h3>Family Pack</h3>
+          <p class="price">$39.99<span>/month</span></p>
+          <ul>
+            <li>Access for up to 5 family members</li>
+            <li>Parental controls and activity monitoring</li>
+            <li>Shared access to all games and content</li>
+            <li>Family leaderboard and challenges</li>
+            <li>24/7 customer support</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Upcoming Games Section -->
+  <!-- Upcoming Games Section -->
+  <!-- Upcoming Games Section -->
+  <section id="upcoming" class="upcoming-games-section">
+    <div class="games-wrapper">
+      <h2>Upcoming Games</h2>
+      <div class="games-grid"
+        data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true, "pageDots": false }'>
+        <div class="game1">
+          <div class="upcomname">
+            <p>S.T.A.L.K.E.R. 2: Heart of Chornobyl</p>
+          </div>
+          <div class="orderdiv">
+            <div class="pre-oder">Pre-Purchase!</div>
           </div>
         </div>
-        <div class="floating-objects">
-            <div class="object object-1"></div>
-            <div class="object object-2"></div>
-            <div class="object object-3"></div>
-            <div class="object object-4"></div>
-            <div class="object object-5"></div>
-            <div class="object object-6"></div>
-            <div class="object object-7"></div>
-            <div class="object object-8"></div>
-            <div class="object object-9"></div>
-            <!-- Add more objects as needed -->
+        <div class="game2">
+          <div class="upcomname">
+            <p>Vampire: The Masquerade® - Bloodlines™ 2</p>
           </div>
-      
-    </section>
-
-    <section id="upcoming" class="upcoming-section">
+          <div class="orderdiv">
+            <div class="pre-oder">Pre-Purchase!</div>
+          </div>
+        </div>
+        <div class="game3">
+          <div class="upcomname">
+            <p>Frostpunk 2</p>
+          </div>
+          <div class="orderdiv">
+            <div class="pre-oder">Pre-Purchase!</div>
+          </div>
+        </div>
+        <div class="game4">
+          <div class="upcomname">
+            <p>Warhammer 40,000: Space Marine 2
+            </p>
+          </div>
+          <div class="orderdiv">
+            <div class="pre-oder">Pre-Purchase!</div>
+          </div>
+        </div>
+        <div class="game5">
+          <div class="upcomname">
+            <p>Monster Hunter Wilds
+            </p>
+          </div>
+          <div class="orderdiv">
+            <div class="pre-oder">Pre-Purchase!</div>
+          </div>
+        </div>
         
-      </section>
-      
-    
-    <script>
-        new WOW().init();
-      </script>
+      </div>
+    </div>
+    <h1 class="text-center h1last">Pre-Purchase now and ENJOY later!</h1>
+  </section>
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-logo">
+            <a href="#">GamingDistrict</a>
+        </div>
+        <div class="footer-links">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <ul>
+                    <li><a href="#">Company Info</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#">Game Development</a></li>
+                    <li><a href="#">Consulting</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="#">Email Us</a></li>
+                    <li><a href="#">Help Center</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-social">
+            <a href="#" class="social-icon">Facebook</a>
+            <a href="#" class="social-icon">Twitter</a>
+            <a href="#" class="social-icon">Instagram</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+    </div>
+</footer>
+
+
+
+
+  <script>
+    new WOW().init();
+  </script>
+
+  <!-- Flickity JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
+  <script src="js/jaaa.js"></script>
 </body>
+
 </html>
-<script src="js/jaaa.js"></script>

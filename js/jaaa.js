@@ -129,4 +129,12 @@ document.addEventListener("DOMContentLoaded", function() {
     );
   });
     
-    
+  document.addEventListener('DOMContentLoaded', function() {
+    var elem = document.querySelector('.games-carousel');
+    var flkty = new Flickity(elem, {
+        cellAlign: 'left',
+        contain: true,
+        pageDots: false,
+        wrapAround: true
+    });
+});
