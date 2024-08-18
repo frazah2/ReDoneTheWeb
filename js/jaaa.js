@@ -138,3 +138,29 @@ document.addEventListener("DOMContentLoaded", function() {
         wrapAround: true
     });
 });
+
+
+
+const scrollToTopBtn = document.getElementById("scrollToTop");
+
+window.onscroll = function() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    scrollToTopBtn.style.display = "block";
+  } else {
+    scrollToTopBtn.style.display = "none";
+  }
+};
+
+scrollToTopBtn.addEventListener("click", function() {
+  // Rotate the button
+  scrollToTopBtn.classList.toggle("rotate");
+  
+  // Smooth scroll to the top
+  window.scrollTo({top: 0, behavior: 'smooth'});
+
+  // Remove the rotate class after the rotation is complete
+  setTimeout(() => {
+    scrollToTopBtn.classList.remove("rotate");
+  }, 500); // 500ms matches the transition duration in CSS
+});
+
