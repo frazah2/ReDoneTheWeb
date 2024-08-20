@@ -164,3 +164,75 @@ scrollToTopBtn.addEventListener("click", function() {
   }, 500); // 500ms matches the transition duration in CSS
 });
 
+
+$(document).ready(function() {
+  // Hide all items initially
+  $('.item').hide();
+
+  // Variable to track the active filter
+  var activeFilter = '';
+
+  // Function to hide all items with a smooth effect
+  var hideAllItems = function() {
+    $('.item').hide();
+  };
+
+  // Category filters
+  $('.blue').click(function() {
+    if (activeFilter === 'blue') {
+      hideAllItems();
+      activeFilter = '';
+    } else {
+      hideAllItems();
+      $('.item.blue').slideDown(300);
+      activeFilter = 'blue';
+    }
+  });
+  $('.white').click(function() {
+    if (activeFilter === 'white') {
+      hideAllItems();
+      activeFilter = '';
+    } else {
+      hideAllItems();
+      $('.item.white').slideDown(300);
+      activeFilter = 'white';
+    }
+  });
+  $('.grey').click(function() {
+    if (activeFilter === 'grey') {
+      hideAllItems();
+      activeFilter = '';
+    } else {
+      hideAllItems();
+      $('.item.grey').slideDown(300);
+      activeFilter = 'grey';
+    }
+  });
+  $('.yellow').click(function() {
+    if (activeFilter === 'yellow') {
+      hideAllItems();
+      activeFilter = '';
+    } else {
+      hideAllItems();
+      $('.item.yellow').slideDown(300);
+      activeFilter = 'yellow';
+    }
+  });
+  $('.red').click(function() {
+    if (activeFilter === 'red') {
+      hideAllItems();
+      activeFilter = '';
+    } else {
+      hideAllItems();
+      $('.item.red').slideDown(300);
+      activeFilter = 'red';
+    }
+  });
+
+  // Active tag
+  $('.button').click(function(){
+    $('.button').removeClass('active');
+    $(this).addClass('active');
+  });
+});
+
